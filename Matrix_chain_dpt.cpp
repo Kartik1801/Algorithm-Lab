@@ -36,6 +36,7 @@ int main(){
         c[i][i] = 0;
     }
     mco(m, n, c, s);
-    cout << c[1][4] << endl << print(s,1,4);
+    cout<<c[1][4]<<endl;
+    print(s,1,4);
     return 0;
 }
